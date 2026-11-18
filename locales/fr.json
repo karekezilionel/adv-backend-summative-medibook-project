@@ -1,0 +1,11 @@
+{
+  "title": "Commentaires sur le cours",
+  "instructions": "Veuillez répondre attentivement aux 5 questions suivantes.",
+  "date": "Date d'aujourd'hui",
+  "q1": "1. Quel sujet de ce cours avez-vous trouvé le plus difficile, et pourquoi ?",
+  "q2": "2. Décrivez un concept que vous n'avez compris qu'après les travaux pratiques. Qu'est-ce qui a fait tilt ?",
+  "q3": "3. Comment votre approche de la conception de bases de données ou d'API a-t-elle changé depuis le début du trimestre ?",
+  "q4": "4. Que feriez-vous pour améliorer la façon dont ce cours a été enseigné ou évalué ?",
+  "q5": "5. Comment prévoyez-vous d'appliquer ce que vous avez appris dans ce cours à l'avenir ?",
+  "submit": "Soumettre les commentaires"
+}

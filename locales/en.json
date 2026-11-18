@@ -1,0 +1,11 @@
+{
+  "title": "Course Feedback",
+  "instructions": "Please answer the following 5 questions thoughtfully.",
+  "date": "Today's Date",
+  "q1": "1. Which topic in this course did you find most challenging, and why?",
+  "q2": "2. Describe one concept you understood only after the practical assignments. What made it click?",
+  "q3": "3. How has your approach to designing databases or APIs changed since the start of the trimester?",
+  "q4": "4. What would you improve about how this course was taught or assessed?",
+  "q5": "5. How do you plan to apply what you learned in this course going forward?",
+  "submit": "Submit Feedback"
+}
