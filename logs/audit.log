@@ -1,0 +1,4 @@
+{"timestamp":"2026-11-15T15:47:51.292Z","event":"BOOKING","appointment_id":20,"patient_id":2,"doctor_id":2,"appointment_datetime":"2027-09-15 14:00:00","amount_paid":"100.00"}
+{"timestamp":"2026-11-18T10:27:59.457Z","event":"BOOKING","appointment_id":21,"patient_id":1,"doctor_id":1,"appointment_datetime":"2027-12-12 10:00:00","amount_paid":"150.00"}
+{"timestamp":"2026-11-18T10:27:59.505Z","event":"NOTIFICATION_SENT","patient_id":1,"appointment_id":21,"message":"Your appointment with Dr. Dr. Boateng on 2027-12-12 10:00:00 is confirmed."}
+{"timestamp":"2026-11-18T10:28:39.346Z","event":"CANCELLATION","appointment_id":"21","refund_percentage":100,"refund_amount":150}
