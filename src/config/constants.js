@@ -1,0 +1,6 @@
+module.exports = {
+    WORKING_HOURS_START: 9,  // 09:00
+    WORKING_HOURS_END: 17,   // 17:00
+    MAX_APPOINTMENTS_PER_DAY: 12,
+    SLOT_DURATION_MINUTES: 30
+};
