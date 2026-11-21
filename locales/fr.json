@@ -1,11 +1,15 @@
 {
   "title": "Commentaires sur le cours",
-  "instructions": "Veuillez répondre attentivement aux 5 questions suivantes.",
+  "instructions": "Voici mes commentaires sur le cours de développement backend.",
   "date": "Date d'aujourd'hui",
   "q1": "1. Quel sujet de ce cours avez-vous trouvé le plus difficile, et pourquoi ?",
+  "a1": "Réponse : Les transactions de base de données et la concurrence. Comprendre comment empêcher deux utilisateurs de réserver le même créneau à la même milliseconde était difficile mais très gratifiant.",
   "q2": "2. Décrivez un concept que vous n'avez compris qu'après les travaux pratiques. Qu'est-ce qui a fait tilt ?",
+  "a2": "Réponse : Les files d'attente Redis et les workers en arrière-plan. La création du système de liste d'attente m'a fait réaliser la puissance de la séparation du serveur web du traitement en arrière-plan.",
   "q3": "3. Comment votre approche de la conception de bases de données ou d'API a-t-elle changé depuis le début du trimestre ?",
+  "a3": "Réponse : Je pense maintenant à la normalisation et aux contraintes avant d'écrire du code. Je faisais juste une grande table avant, mais je comprends maintenant l'importance de la 3NF et des clés étrangères.",
   "q4": "4. Que feriez-vous pour améliorer la façon dont ce cours a été enseigné ou évalué ?",
+  "a4": "Réponse : Le cours était excellent. Je suggérerais plus de sessions de codage en direct pour les sujets complexes comme Redis et les transactions.",
   "q5": "5. Comment prévoyez-vous d'appliquer ce que vous avez appris dans ce cours à l'avenir ?",
-  "submit": "Soumettre les commentaires"
+  "a5": "Réponse : Je prévois d'utiliser des requêtes paramétrées pour éviter les injections SQL dans tous mes futurs projets, et d'utiliser des workers en arrière-plan pour des tâches comme l'envoi d'e-mails."
 }

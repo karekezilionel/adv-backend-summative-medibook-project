@@ -1,11 +1,15 @@
 {
   "title": "Course Feedback",
-  "instructions": "Please answer the following 5 questions thoughtfully.",
+  "instructions": "Here is my feedback on the backend development course.",
   "date": "Today's Date",
   "q1": "1. Which topic in this course did you find most challenging, and why?",
+  "a1": "Answer: Database transactions and concurrency. Understanding how to prevent two users from booking the exact same slot at the same millisecond using SELECT ... FOR UPDATE was difficult but very rewarding.",
   "q2": "2. Describe one concept you understood only after the practical assignments. What made it click?",
+  "a2": "Answer: Redis queues and background workers. Building the waitlist system made me realize how powerful it is to separate the web server from background processing.",
   "q3": "3. How has your approach to designing databases or APIs changed since the start of the trimester?",
+  "a3": "Answer: I now think about normalization and constraints before writing any code. I used to just make one big table, but now I understand the importance of 3NF and foreign keys.",
   "q4": "4. What would you improve about how this course was taught or assessed?",
+  "a4": "Answer: The course was great. I would suggest more live coding sessions for complex topics like Redis and transactions.",
   "q5": "5. How do you plan to apply what you learned in this course going forward?",
-  "submit": "Submit Feedback"
+  "a5": "Answer: I plan to use parameterized queries to prevent SQL injection in all future projects, and use background workers for tasks like sending emails or processing payments."
 }
