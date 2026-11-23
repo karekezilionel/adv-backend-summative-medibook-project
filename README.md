@@ -71,3 +71,6 @@ I created a custom logger.js utility using fs.promises.appendFile.
 - Notification Jobs: Every successful booking pushes a job to a Redis list (notifications_queue). The separate worker process pops this list and writes the confirmation message to the audit log.
 - Waitlist: If a booking fails due to a CONFLICT (slot taken) or LIMIT_REACHED (12-appointment cap), the patient is pushed to a Redis waitlist_queue.
 - Failure Handling (Worker): The worker process runs in an infinite loop. If a patient is popped from the waitlist, the worker attempts to book them. If this booking fails (e.g., someone else grabbed the slot a millisecond earlier), the catch block pushes the patient back onto the waitlist. This guarantees they are never lost from both the queue and the database.
+
+
+## Video link: https://youtu.be/ZhttA_3K4SY
